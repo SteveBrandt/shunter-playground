@@ -7,17 +7,20 @@
 
 </head>
 <body>
-    <h1>{title}</h1>
-    <p>Welcome to your shunter-playground!</p>
+    <div class="main">
 
-    <ul>
-        {#list}
-            <li>{.}</li>
-        {/list}
-    </ul>
+        <h1>{title}</h1>
+        <p>Welcome to your shunter-playground!</p>
 
-    <p>The hostname was added by a filter with the name "a-input-filter.js": {hostname}</p>
+        <ul>
+            {#list}
+                <li>{.}</li>
+            {/list}
+        </ul>
 
+        <p>The hostname was added by a filter with the name "a-input-filter.js": {hostname}</p>
+
+    </div>
     <script src="{@assetPath src="main.js"/}"></script>
 </body>
 </html>

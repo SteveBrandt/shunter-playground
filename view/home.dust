@@ -16,6 +16,8 @@
         {/list}
     </ul>
 
+    <p>The hostname was added by a filter with the name "a-input-filter.js": {hostname}</p>
+
     <script src="{@assetPath src="main.js"/}"></script>
 </body>
 </html>

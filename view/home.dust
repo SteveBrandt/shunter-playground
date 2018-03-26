@@ -12,11 +12,7 @@
         <h1>{title}</h1>
         <p>Welcome to your shunter-playground!</p>
 
-        <ul>
-            {#list}
-                <li>{.}</li>
-            {/list}
-        </ul>
+        {>"list"/}
 
         <p>The hostname was added by a filter with the name "a-input-filter.js": {hostname}</p>
 

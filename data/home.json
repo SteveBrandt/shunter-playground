@@ -1,11 +1,15 @@
 {
   "layout": {
-    "template": "home"
+    "template": "layout"
   },
-  "title": "Hello World!",
-  "list": [
-    "foo",
-    "bar",
-    "baz"
-  ]
+  "page_title": "Hello World!",
+  "containers" : {
+    "middle":[{
+        "type": "title",
+        "id": null,
+        "data": {
+          "title": "Hello World!"
+        }
+    }]
+  }
 }

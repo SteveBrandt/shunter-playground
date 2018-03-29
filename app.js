@@ -4,6 +4,8 @@ var shunter = require('shunter');
 // Create a Shunter application, passing in options
 var app = shunter({
 
+    modules: ["shunter-mosaic"],
+
     // Configure the themes path to the current directory
     path: {
         themes: __dirname

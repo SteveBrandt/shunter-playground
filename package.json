@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "app.js",
   "dependencies": {
-    "shunter": "*"
+    "shunter": "*",
+    "shunter-mosaic": "*"
+  },
+  "devDependencies": {
+    "node-sass": "*"
   }
 }
